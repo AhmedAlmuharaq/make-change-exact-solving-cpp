@@ -4,7 +4,7 @@ This repository contains our C++ practical work on the **Make Change** problem. 
 
 ## Academic context
 
-- **Course:** UE 7 Mobility in Smart Cities
+- **Course:**  Mobility in Smart Cities
 - **University:** Université Marie et Louis Pasteur
 - **Instructor:** Prof. Philippe Canalda
 - **Students:** Ahmed Al-Muharaq and Owais Khan
