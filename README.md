@@ -1,4 +1,4 @@
-# Make Change — Exact Solving in C++17
+# Make Change Exact Solving in C++17
 
 This repository contains our C++17 practical work on the **Make Change** problem. We compare greedy selection, complete recursive enumeration, exact recursive branch-and-bound with safe cuts, and bottom-up dynamic programming. For every method, our optimization objective is to represent the target amount with the minimum possible number of coins.
 
