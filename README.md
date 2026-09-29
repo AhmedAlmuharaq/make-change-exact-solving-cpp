@@ -119,7 +119,7 @@ The cuts eliminate most of the search on these structured benchmark instances. I
 
 ## Requirements
 
-- A C++17 compiler, such as GCC
+- A C++ compiler, such as GCC
 - Python 3
 - `pandas`
 - `matplotlib`
