@@ -1,0 +1,23 @@
+
+Official example: EUR 12.35
+Ordered greedy solution: 2 x EUR 5.00 + 1 x EUR 2.00 + 1 x EUR 0.20 + 1 x EUR 0.10 + 1 x EUR 0.05  (6 coins)
+Unordered list used directly: 61 x EUR 0.20 + 3 x EUR 0.05  (64 coins)
+Unordered list after sorting: 2 x EUR 5.00 + 1 x EUR 2.00 + 1 x EUR 0.20 + 1 x EUR 0.10 + 1 x EUR 0.05  (6 coins)
+Recursive enumeration found 266724 valid solutions after exploring 12607231 states.
+Improving incumbents kept by the exact search:
+  2 x EUR 5.00 + 1 x EUR 2.00 + 1 x EUR 0.20 + 1 x EUR 0.10 + 1 x EUR 0.05  (6 coins)
+Best solution with cuts: 2 x EUR 5.00 + 1 x EUR 2.00 + 1 x EUR 0.20 + 1 x EUR 0.10 + 1 x EUR 0.05  (6 coins)
+States explored: 18, states pruned: 10
+Dynamic-programming verification: 2 x EUR 5.00 + 1 x EUR 2.00 + 1 x EUR 0.20 + 1 x EUR 0.10 + 1 x EUR 0.05  (6 coins)
+
+Counterexample where greedy is not optimal
+Greedy: 1 x EUR 4.00 + 2 x EUR 1.00  (3 coins)
+Exact with cuts: 2 x EUR 3.00  (2 coins)
+Improving sequence: 1 x EUR 4.00 + 2 x EUR 1.00  (3 coins)
+                    2 x EUR 3.00  (2 coins)
+                    
+Counterexample where greedy fails
+Greedy: No exact solution
+Exact with cuts: 1 x EUR 5.00 + 3 x EUR 1.50  (4 coins)
+
+Run with --benchmark to generate the CSV data used for the curves.

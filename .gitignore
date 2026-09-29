@@ -1,0 +1,21 @@
+# Compiled executables and build output
+*.exe
+build/
+cmake-build-*/
+
+# Editor settings
+.vscode/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Archives
+Make_Change_CPP_Project.zip
+*.zip
+
+# Temporary and draft documents
+*.docx
+/Make_Change_Practical_Work_Report.pdf
+*.tmp
+*.temp
