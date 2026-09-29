@@ -64,10 +64,10 @@ Branch-and-bound can reduce the practical search substantially, but it remains a
 | Ordered greedy | 6 coins |
 | Unordered list used directly | 64 coins |
 | Unordered list after sorting | 6 coins |
-| Complete recursive enumeration — valid solutions | 266,724 |
-| Complete recursive enumeration — explored states | 12,607,231 |
-| Exact recursive search with cuts — explored states | 18 |
-| Exact recursive search — pruned states | 10 |
+| Complete recursive enumeration - valid solutions | 266,724 |
+| Complete recursive enumeration - explored states | 12,607,231 |
+| Exact recursive search with cuts - explored states | 18 |
+| Exact recursive search - pruned states | 10 |
 | Dynamic programming | Confirms the 6-coin optimum |
 
 The six-coin optimum is two EUR 5 coins, one EUR 2 coin, one EUR 0.20 coin, one EUR 0.10 coin, and one EUR 0.05 coin.
